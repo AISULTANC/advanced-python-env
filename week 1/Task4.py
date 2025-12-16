@@ -1,5 +1,11 @@
 N = int(input())
+total = 0
+
 if N >= 1:
-    print(N * (N + 1) // 2)
+    for i in range(1, N + 1):
+        total += i
 else:
-    print((N * (N - 1)) // 2 + 1)
+    for i in range(1, N - 1, -1):
+        total += i
+
+print(total)
