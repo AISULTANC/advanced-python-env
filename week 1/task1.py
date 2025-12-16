@@ -1,0 +1,7 @@
+first = input()
+last = input()
+age = input()
+phone = input()
+print(first, last)
+print(age)
+print(phone)
